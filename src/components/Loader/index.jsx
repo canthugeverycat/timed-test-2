@@ -7,7 +7,7 @@ const Loader = ({isLoading}) => {
         return null;
     }
 
-    return <p className="loader">💠</p>;
+    return <p data-testid="loader" className="loader">💠</p>;
 };
 
 Loader.propTypes = {

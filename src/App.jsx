@@ -31,7 +31,7 @@ const App = () => {
     <div className="App">
       <h1>Showing {data.length || ''} posts</h1>
       <div className="posts">
-        {hasError && (<p className="error" onClick={getData}>Oops! There has been an error. 🤷‍♀️</p>)}
+        {hasError && (<p data-testid="posts-error" className="error" onClick={getData}>Oops! There has been an error. 🤷‍♀️</p>)}
         <Loader isLoading={isFetching} />
         {data.map(post => (<Post key={post.id} {...post} />))}
       </div>

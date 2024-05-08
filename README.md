@@ -13,11 +13,11 @@ Build a React application that consumes an API using Redux for state management.
 - Once you finish, push your code to a GitHub repository and share the link with the interviewer.
 
 # Requirements:
-[] Use the following public API for fetching data: [Dummy JSON API](https://dummyjson.com/posts)
-[] Display a list of posts retrieved from the API.
-[] Each post should display its title and body.
-[] Implement loading indicators while data is being fetched.
-[] Handle errors gracefully and display an error message if data fetching fails.
+[x] Use the following public API for fetching data: [Dummy JSON API](https://dummyjson.com/posts)
+[x] Display a list of posts retrieved from the API.
+[x] Each post should display its title and body.
+[x] Implement loading indicators while data is being fetched.
+[x] Handle errors gracefully and display an error message if data fetching fails.
 
 # Bonus (Optional):
 [] Add unit tests for your React components and Redux actions/reducers using Jest and Enzyme.
