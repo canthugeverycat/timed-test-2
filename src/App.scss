@@ -1,0 +1,28 @@
+@import './globals.scss';
+
+.App {
+  padding-top: gutter(2);
+
+  h1 {
+    margin-left: gutter(10);
+  }
+
+  .error {
+    font-size: 20px;
+    margin-left: gutter(10);
+    color: $red;
+    background: $white;
+    border-radius: $border-radius-default;
+    cursor: pointer;
+    display: inline-block;
+    padding: gutter(2) gutter(4);
+
+    &:hover {
+      transform: scale(1.01);
+    }
+
+    &:active {
+      transform: scale(1);
+    }
+  }
+}

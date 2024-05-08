@@ -1,0 +1,30 @@
+@import '../../globals.scss';
+
+.post {
+    background: $white;
+    border-radius: $border-radius-default;
+    margin: gutter(10);
+    padding: gutter(2) gutter(4);
+    color: $black;
+    box-shadow: $box-shadow-default;
+    cursor: pointer;
+
+    .title {
+        margin-top: gutter(1);
+        margin-bottom: gutter(2);
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .body {
+        margin-bottom: gutter();
+    }
+
+    &:hover {
+        transform: scale(1.01);
+    }
+
+    &:active {
+        transform: scale(1);
+    }
+}
